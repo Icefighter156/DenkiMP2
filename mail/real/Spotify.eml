@@ -1,14 +1,14 @@
-Return-path: <bounces+15080943-d216-hanno.postl=icloud.com@em.spotify.com>
-Original-recipient: rfc822;hanno.postl@icloud.com
+Return-path: <bounces+15080943-d216-max.mustermann=icloud.com@em.spotify.com>
+Original-recipient: rfc822;max.mustermann@gmail.com
 Received: from p00-icloudmta-smtpin-us-east-2d-10-percent-1 by p46-mailgateway-smtp-5854f896cc-qbsmm (mailgateway 2544B77)
 	with SMTP id f89ea36c-c25f-4473-83e5-52f50ad8da7e 
-	for <hanno.postl@icloud.com>; Sun, 11 Jan 2026 13:54:09 GMT
+	for <max.mustermann@gmail.com>; Sun, 11 Jan 2026 13:54:09 GMT
 X-Apple-MoveToFolder: INBOX 
 X-Apple-Action: MOVE_TO_FOLDER/INBOX
 X-Apple-UUID: f89ea36c-c25f-4473-83e5-52f50ad8da7e
 Received: from o26.em.spotify.com (o26.em.spotify.com [149.72.241.206])
 	by p00-icloudmta-smtpin-us-east-2d-10-percent-1 (Postfix) with ESMTPS id 30376C00092
-	for <hanno.postl@icloud.com>; Sun, 11 Jan 2026 13:54:04 +0000 (UTC)
+	for <max.mustermann@gmail.com>; Sun, 11 Jan 2026 13:54:04 +0000 (UTC)
 X-ICL-Info: GAtbRVYDBVFFSlVHSgQEUVUKE0oWX1gHVQoPB0UBAltbTlRZSgQHTEdJUFcdVAsAGgwIFB1DHVNASV5HQQQFTxFLV0FVWFcMGxZIBxdDQg5IEAUbF0VSTBYWCzcdXRgRBRYSHh5JGAEaFEYRHA1FEhoNDxEBHlUNGFkUFEVYVwwbFkgHF0NCDjUQBRsXRVJMFhYLVxBVWg1IFlRBVlVbTAYJCQMRVk9MFhYLVwhERF8aS1BZHV0YEQUWEh4eSRgBGhRGExwNRRIaDQ8RAR5VDRhZCx4cDQonKgwnMy0GYTEdEAAaIGZbCDEjUxw5cFEHGgkJE1VZRQ8BCQJaSQUI
 X-ICL-Score: 2.33303302423
 Authentication-Results: bimi.icloud.com; bimi=skipped reason="missing evidence"
@@ -18,8 +18,8 @@ Authentication-Results: dmarc.icloud.com; dmarc=pass header.from=spotify.com
 X-DMARC-Policy: v=DMARC1; p=reject; sp=reject; pct=100; fo=1; rf=afrf; rua=mailto:6jxge2ly@ag.eu.dmarcian.com;
 X-DMARC-Info: pass=pass; dmarc-policy=reject; s=r1; d=r1; pdomain=spotify.com
 Authentication-Results: dkim-verifier.icloud.com; dkim=pass header.d=spotify.com header.i=@spotify.com header.b=M54sh4ls
-Received-SPF: pass (spf.icloud.com: domain of bounces+15080943-d216-hanno.postl=icloud.com@em.spotify.com designates 149.72.241.206 as permitted sender) receiver=spf.icloud.com; client-ip=149.72.241.206; helo=o26.em.spotify.com; envelope-from=bounces+15080943-d216-hanno.postl=icloud.com@em.spotify.com
-Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of bounces+15080943-d216-hanno.postl=icloud.com@em.spotify.com designates 149.72.241.206 as permitted sender) smtp.mailfrom=bounces+15080943-d216-hanno.postl=icloud.com@em.spotify.com
+Received-SPF: pass (spf.icloud.com: domain of bounces+15080943-d216-max.mustermann=icloud.com@em.spotify.com designates 149.72.241.206 as permitted sender) receiver=spf.icloud.com; client-ip=149.72.241.206; helo=o26.em.spotify.com; envelope-from=bounces+15080943-d216-max.mustermann=icloud.com@em.spotify.com
+Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of bounces+15080943-d216-max.mustermann=icloud.com@em.spotify.com designates 149.72.241.206 as permitted sender) smtp.mailfrom=bounces+15080943-d216-max.mustermann=icloud.com@em.spotify.com
 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=spotify.com;
 	h=content-type:date:from:mime-version:subject:to:cc:content-type:date:
 	from:subject:to;
@@ -62,7 +62,7 @@ X-SG-ID:
  =?us-ascii?Q?ryKMxH3Sj=2FAkznXoSecan8HTTELPNwycBeCTVK1?=
  =?us-ascii?Q?MDPWtc9pZBaLBlDVY4+LQNDlHnaVkw7G1QbzzpU?=
  =?us-ascii?Q?1LjY9d8uLqrNPkSClO8GzZA=3D=3D?=
-To: hanno.postl@icloud.com
+To: max.mustermann@gmail.com
 X-Entity-ID: u001.+fHwOyduWtKQQvKRmaKaCg==
 X-MANTSH: 1TFkXGxsaGREKWUQXZUkFE3xvU2FfZB4RCllNF2JLRxEKX1kXGx8RCl9NF2RFRE8
  RCllJFxpxGhAadwYHGxpxGxIdHx8eEBgZHBsbE3cGGQYaEQpZXhdsbHkRCkNOF3NQGx5wZ20YW
@@ -145,7 +145,7 @@ Hol dir Spotify f=FCr:
 sic)
   * Sonstiges (https://www.spotify.com/download/)
 
-Diese Nachricht wurde an hanno.postl@icloud.com gesendet.
+Diese Nachricht wurde an max.mustermann@gmail.com gesendet.
 
 Bei Fragen oder Beschwerden kannst du dich jederzeit an uns wenden ( https:=
 //www.spotify.com/about-us/contact/ ).
@@ -401,7 +401,7 @@ margin:0;width:6.25%"></td><td class=3D"font" style=3D"border:none;padding:=
 0;margin:0;font-family:&quot;helvetica&quot;, &quot;arial&quot;, sans-serif=
 ;font-weight:400;line-height:1.65em;letter-spacing:0.15px;font-size:11px;te=
 xt-decoration:none;color:#88898c"> <span style=3D"border:none;padding:0;mar=
-gin:0">Diese Nachricht wurde an hanno.postl@icloud.com gesendet.</span> Bei=
+gin:0">Diese Nachricht wurde an max.mustermann@gmail.com gesendet.</span> Bei=
  Fragen oder Beschwerden kannst du dich jederzeit <a class=3D"footer-link" =
 href=3D"https://www.spotify.com/about-us/contact/" style=3D"border: none; m=
 argin: 0px; padding: 0px; text-decoration: none; color: rgb(109, 109, 109);=

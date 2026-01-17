@@ -5,5 +5,6 @@
 <button class="FakeButton">Fake</button>
 </div>
 
-<img id="imgPage1" src="/images/email1.png" width="700">
+<!-- img id="imgPage1" src="/images/email1.png" width="700" -->
+<iframe src="/mail/fake/OPENAI.html" width="70%"  height="1000px"></iframe>
 

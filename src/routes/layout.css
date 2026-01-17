@@ -1,4 +1,80 @@
-.buttonDiv{
-    
-    padding-left: 100px;
+html{
+  background-color: beige;
 }
+
+.buttonDiv{
+    width: 500px;
+    padding-left: 430px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    
+}
+
+.RealButton {
+  background-color: #28a745; /* nicer green */
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px; /* slightly rounded */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.RealButton:hover {
+  background-color: #218838; /* darker green on hover */
+  transform: scale(1.05);     /* subtle grow effect */
+}
+
+.FakeButton {
+  background-color: #dc3545; /* nicer red */
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.FakeButton:hover {
+  background-color: #c82333; /* darker red on hover */
+  transform: scale(1.05);
+}
+
+
+#imgPage1{
+ padding-left: 300px; 
+}
+
+#h1Page1{
+    padding-left: 570px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.h1Finish{
+  padding-left: 500px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h1FinishQuestion{
+  padding-left: 350px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.imgPageFinish{
+  padding-left: 400px; 
+ }
+
+
+ p{
+  padding-left: 400px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }

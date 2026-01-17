@@ -1,9 +1,9 @@
-<h1>Fake or Real?</h1>
+<h1 id="h1Page1">Fake or Real?</h1>
 
 <div class="buttonDiv">
-<button>Real</button>
-<button>Fake</button>
+<button class="RealButton">Real</button>
+<button class="FakeButton">Fake</button>
 </div>
 
-<img src="/images/email1.png" width="700">
+<img id="imgPage1" src="/images/email1.png" width="700">
 

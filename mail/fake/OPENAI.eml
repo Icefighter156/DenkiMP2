@@ -1,0 +1,127 @@
+Return-path: <lepoxuze@webuser.mail.hostpoint.ch>
+Original-recipient: rfc822;max.mustermann@gmail.com
+Received: from p00-icloudmta-smtpin-us-west-3a-10-percent-3 by p46-mailgateway-smtp-5854f896cc-gc285 (mailgateway 2544B77)
+	with SMTP id 1a494644-3318-48d7-b626-519d96b68513 
+	for <max.mustermann@gmail.com>; Thu, 18 Dec 2025 07:09:28 GMT
+X-Apple-MoveToFolder: INBOX 
+X-Apple-Action: MOVE_TO_FOLDER/INBOX
+X-Apple-UUID: 1a494644-3318-48d7-b626-519d96b68513
+Received: from webout013.mail.hostpoint.ch (webout013.mail.hostpoint.ch [217.26.49.147])
+	by p00-icloudmta-smtpin-us-west-3a-10-percent-3 (Postfix) with ESMTPS id 0FC6FC000C4
+	for <max.mustermann@gmail.com>; Thu, 18 Dec 2025 07:09:25 +0000 (UTC)
+X-ICL-Info: GAtbRVYDBFBFSlVFSgQEUFUKE0oWX1gHVQoPB0UCB1VbS1BZTAkYU0FORhIcDVoHBRYeAgJVdhUQGxMEHUIYDxQQClkQX0UWBRYPGQweVQpVHwJKDFVEEBAKBx4WRFNMGxwSVwpTCwoUFwgYVkBZEQEVJh4bXFkXEVcFGBUQXgcZFlsAHVJZFwFJV0RWXVcLGVcOGAtERg0cFxJZG1gWEgELWwAdUlkXAUlXRFZdVwsZVw4YC0RGDRwXElkbWBYGEUQTGRNeWRUbWQseHA0KJ0QPMU9AahtSRUlWR0gABiAlTEtFP2FwIgZIX0dWQ1MQAxwUWRBfRRYFFg8ZDB5fDAEcFBkZXAg=
+X-ICL-Score: 2.32203322422
+Authentication-Results: bimi.icloud.com; bimi=skipped reason="insufficient dmarc"
+X-ARC-Info: policy=fail; arc=none; r1=-20; r2=0
+Authentication-Results: arc.icloud.com; arc=none
+Authentication-Results: dmarc.icloud.com; dmarc=none header.from=terresainte.net
+X-DMARC-Policy: none
+X-DMARC-Info: pass=none; dmarc-policy=(nopolicy); s=u0; d=u0; pdomain=terresainte.net
+Authentication-Results: dkim-verifier.icloud.com; dkim=none
+Received-SPF: pass (spf.icloud.com: domain of lepoxuze@webuser.mail.hostpoint.ch designates 217.26.49.147 as permitted sender) receiver=spf.icloud.com; client-ip=217.26.49.147; helo=webout013.mail.hostpoint.ch; envelope-from=lepoxuze@webuser.mail.hostpoint.ch
+Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of lepoxuze@webuser.mail.hostpoint.ch designates 217.26.49.147 as permitted sender) smtp.mailfrom=lepoxuze@webuser.mail.hostpoint.ch
+Received: from mailnull by webout013.mail.hostpoint.ch with sa-filter (Exim 4.98.2 (FreeBSD))
+	(envelope-from <lepoxuze@webuser.mail.hostpoint.ch>)
+	id 1vW88Z-00000000Azh-3axO
+	for max.mustermann@gmail.com;
+	Thu, 18 Dec 2025 08:09:24 +0100
+X-Spam-Yness: 0.7
+Received: from [10.1.112.145] (helo=s190.server.hostpoint.internal)
+	by webout013.mail.hostpoint.ch with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2 (FreeBSD))
+	(envelope-from <lepoxuze@webuser.mail.hostpoint.ch>)
+	id 1vW88Z-00000000AyU-2kmG
+	for max.mustermann@gmail.com;
+	Thu, 18 Dec 2025 08:09:23 +0100
+Received: from lepoxuze by s190.server.hostpoint.internal with local (Exim 4.98.2 (FreeBSD))
+	(envelope-from <lepoxuze@webuser.mail.hostpoint.ch>)
+	id 1vW88Z-00000000BP5-2GQF
+	for max.mustermann@gmail.com;
+	Thu, 18 Dec 2025 08:09:23 +0100
+To: max.mustermann@gmail.com
+Subject: =?UTF-8?B?VmVybGllcmVuIFNpZSBuaWNodCBkZW4gWnVncmlmZiBhdWYgQ2hhdEdQVCBQbHVz?=
+X-PHP-Originating-Script: 407271:jerd_utf8.php
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+From: OpenAI <redaction1@terresainte.net>
+Message-Id: <E1vW88Z-00000000BP5-2GQF@s190.server.hostpoint.internal>
+Date: Thu, 18 Dec 2025 08:09:23 +0100
+X-Submitted-by: lepoxuze@s190.server.hostpoint.internal
+X-Abuse-To: This message was sent by a web-server. Please report abuse to abuse@hostpoint.ch.
+X-rcpt-cnt: 1
+X-MANTSH: 1TFkXEh8RCllEF2tsYE18HEJiXwFtEQpZTRdkRURPEQpZSRcYGhpxGxgZBh8adwY
+ eGAYaBhoGGxIGBxsYH3EYEB8YdwYaBgcfGgYaBhoGGgYacRoQGncGGhEKWV4XaGN5EQpDThdcb
+ 1N9bkJaemliE3sebhJ+fVxQWWkHQBhEGXJwH3VeaxEKWFwXGQQaBB8eBRsaGgQSGAQeGAQYExA
+ bHhofGhEKXlkXTU9/G2gRCk1cFxkcEQpMWhdpZGJFQk0RCk1OF2hrEQpMRhdNaxEKQ1oXGBsdB
+ BgcBB4TBBseHREKQl4XGxEKQkUXaRtlREJZT3oSAXgRCkJOF3oBBUxPAVgZG2JrEQpCTBdrXEF
+ zfG9yGFMZQREKQmwXY2tBSV5mTV9nHWkRCkJAF2tyY0xeUk9wex9rEQpCWBdkYGljbBseQkt/H
+ xEKWlgXHhEKcGgXbx9oE2kdHm1pTlIQGhEKcGgXbX1+fFB+R3tzblsQGhEKcGgXek5MTBtfBXp
+ bXF4QGhEKcGgXbHpvG2gFTX9vAXwQBxkaEQpwaBdtUENhQ21cWmkfUxAaEQpwaBdle19lQWliU
+ B0daRAHHRoRCnBoF25BZWN+G2JnTklfEAcZGhEKcGgXZlpTWm5BAU5OSGMQBx4SEQpwfxdgeH1
+ ofRMbAWEYRRAHGxsbEQpwXxdgE0dsaUJ7el5BThAHGxgSEQpwfRdgQFxQeB1cex0ebhAHHRoRC
+ nB/F2ltTmBvQHNMZk0BEAcfHBEKcF8XYmxQS28eckdIfmgQBxkaEQpwfRdibFBLbx5yR0h+aBA
+ HGRoRCnB/F2JmYmYBfEZ/G3NoEBkaEQpwfRdiZmJmAXxGfxtzaBAZGhEKcGwXaWlNchp8c1wce
+ X4QBxkZEQptfhcaEQpYTRdLEQ==
+X-Proofpoint-GUID: vEyWDhpPCH9Q4D8TWvzsC-j2n3XZ5_tA
+X-Proofpoint-Spam-Details-Enc: AW1haW4tMjUxMjE4MDA1NyBTYWx0ZWRfX8Lyr/G7VA8bs
+ C/mDIJeFp+XStQf7CH9JAGxvxdtaGv5ArGCzZKfFLRARmnh84L3+o4BNKeLrGF9qLiTjsK+5fBD
+ 5UKWc01HG2DPha877bWSkiQUflbZZJSuXsn1e8+M77Uqx5UHB1qcbe4bjkPA5xqZyS+FILs/LrO
+ RwMnVcv6wlj35lJw6cTsL8Z+toODuPop7Qg+gjMaUoGVAVPa4MYk7iIiS28xpD8KOhyQQ4umhPG
+ Xnp3I0w2FMFrQS0JhCKAA46+CWP64VD4/zsIQDxDP1h62UUpvERL+uEwFASG84PGpzS2lYq0k=
+X-Proofpoint-ORIG-GUID: vEyWDhpPCH9Q4D8TWvzsC-j2n3XZ5_tA
+X-JNJ: AAAAAAABJPxbxymAM9oBcPbJJmf2zYpiietaAU43KJn7McM19bzexxomee1MSXUGCeycM3+lbLEnw8uaMQKVzygG0fdf/mScRmVaFY/P+tV1Ousmn+4VgomKzYbxBwDfc6SuZTu9x6op018OW89ZDn8lA/RZX0J9MoFKVgG1MkWSSLEK476T1lK9H09sRyiYmKF+mTxZjx7h9yV1QIUEZmzDo9xUT1DZ6XirQDjoE8Xr64nBvUzlcJWChi088I90sfMJcWENkWpj8xVZEE6x92lc6dRfPRuhjOYQ9eICjizStOTL2b/oHqwbpFM4dNpXHyR5cOMWgdYuXx5N6X+dQWpccPHGplcCIYbRV+AxeDeOczXoGsAS0lHFiwI5xsuGOJffac5IjySA/2wU8JmU9CI+0U9bR7uJ0Lrr69pdTM1AuG0rX8FsvcdBr2XovzE/nDUoHo6oA1krpreMr+IkyGmJUFNNMa7NZUFVjwETvSv6UTRPshjVnVdmATVAXVtv6V10KHGna/0IeDKFG59y5FUu60x8jSv7bpKAaGoJC82wEdvd4RnvwKWiu/Cu6w82nu/P4Y5l2eBZy44BWmttO3SEhgdhHeduVhxfz1Qc30vdv6CU5dK/XMMuKSrlLZnskCxrZAWFN7hG3TywYDSn5mYEMwJ+1GR3r9Eih2e0lzdRukcWrDxzhS31PSWKKAiZ4Yo1DIB4sMQ5yFu0w4R/+s0UJpr/jECDG6Yupb5dGRdWazBvUNDfSyXG4s87vUQRnP/xRlgMWwpPjOICQ0qistyr9pBmemDDKtI4m7p530K813o0bq5Kq16wLu6wNQ==
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="center">
+			<table border="0" cellpadding="0" cellspacing="0" style="width:560px;background-color:#fff" width="100%">
+				<tbody>
+					<tr>
+						<td style="padding:27px 20px 24px 15px" valign="top">
+						<table align="left" border="0" cellpadding="0" cellspacing="0" style="min-width:100%" width="100%">
+							<tbody>
+								<tr>
+									<td style="padding-top:0;padding-bottom:0;text-align:left" valign="top"><img alt="" class="CToWUd" data-bit="iit" src="https://ci3.googleusercontent.com/meips/ADKq_NZAAB-llYKAM3W1un8g5B4JY6dql1a75P6kVUR6cT-Dua5G49wd-q8i6G2-lvhtlsopo89h80h4zdfUvTCD5MsNswtTe8FOIsKPIBwy7yRfYUHHtNJe__-0Keo=s0-d-e1-ft#https://cdn.openai.com/API/logo-assets/openai-logo-email-header-1.png" style="width: 120px; max-width: 100%; padding-bottom: 0px; display: inline !important; vertical-align: bottom; float: left; height: 80px;" /></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#ffffff" style="padding:16px 24px;font-size:16px;line-height:24px;text-align:start">
+						<p>Die letzte Zahlung f&uuml;r Ihr ChatGPT Plus-Abonnement ist am 18. Dezember 2025 fehlgeschlagen. Dies weist darauf hin, dass es ein Problem mit Ihrer Zahlungsmethode gibt.</p>
+
+						<p>Um sicherzustellen, dass Sie weiterhin vollen Zugriff auf ChatGPT Plus haben:</p>
+
+						<ul>
+							<li>&Uuml;berpr&uuml;fen Sie bei Ihrer Bank oder Ihrem Kartenanbieter, ob es eine Sperre oder ein Problem mit der Transaktion gibt.</li>
+							<li>Aktualisieren Sie Ihre Zahlungsinformationen <a href="https://varbonde.dreamhosters.com" target="_blank">hier</a>.</li>
+						</ul>
+
+						<p>Bitte abonnieren Sie nach der Aktualisierung Ihrer Zahlungsinformationen erneut, um weiterhin alle ChatGPT Plus-Funktionen nutzen zu k&ouml;nnen. F&uuml;r weitere Hilfe lesen Sie diesen <a href="https://chrome.com" target="_blank">Support-Artikel</a>.</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#ffffff" style="padding:16px 24px;font-size:16px;line-height:24px;text-align:start">
+						<p>Mit freundlichen Gr&uuml;&szlig;en,<br />
+						Das ChatGPT-Team</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" style="padding:24px">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
+

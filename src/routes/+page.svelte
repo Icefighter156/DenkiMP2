@@ -4,7 +4,7 @@
 </script>
 
 
-<h1>Welcome to Miniprojekt 2</h1>
+<h1 id="h1Start">Welcome to Miniprojekt 2</h1>
 
-<button on:click={goto("/question1")}>Click to start</button>
+<button id="buttonStart" on:click={goto("/question1")}>Click to start</button>
 

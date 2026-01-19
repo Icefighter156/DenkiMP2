@@ -1,10 +1,44 @@
 <script>
+	import { goto } from "$app/navigation";
+    import { score } from '$lib/stores/store';
+
+    import { email1 } from '$lib/stores/store';
+
+
     function handleClick(value){
-        if(value === "Real"){
-            alert("Correct! This email is real.");
+        score.update(s => {
+        if (value === "Real") {
+            return {
+                correct: s.correct,
+                wrong: s.wrong +1
+            };
         } else {
-            alert("Incorrect. This email is real.");
+            return {
+                correct: s.correct +1,
+                wrong: s.wrong 
+            };
         }
+    });
+
+
+
+
+        email1.update(s => {
+        if (value === "Real") {
+            return {
+                tipped: "Real",
+                actually: "Fake"
+            };
+        } else {
+            return {
+                tipped: "Fake",
+                actually: "Fake"
+            };
+        }
+    });
+
+   
+        goto("/question2");
     }
 </script>
 
@@ -16,5 +50,5 @@
 </div>
 
 <!-- img id="imgPage1" src="/images/email1.png" width="700" -->
-<iframe src="/mail/fake/OPENAI.html" width="70%"  height="1000px"></iframe>
+<iframe src="/mail/fake/OPENAI.html"   height="500px"></iframe>
 

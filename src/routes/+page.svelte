@@ -1,5 +1,13 @@
 <script>
 	import { goto } from "$app/navigation";
+	import { score } from '$lib/stores/store';
+
+	score.update(s => {
+    
+            return {
+                correct: 0,
+                wrong: 0
+        }});
 
 </script>
 

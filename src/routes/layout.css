@@ -117,3 +117,9 @@ html{
   padding-right: 20%;
   width: 60%;
  }
+
+ iframe{
+  width: 60%;
+  margin-left: 20%;
+  height: 500px;
+ }
